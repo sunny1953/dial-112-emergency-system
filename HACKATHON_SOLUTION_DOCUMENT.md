@@ -9,10 +9,9 @@
 **Owl AI**
 
 ### Team Members & Roles:
-- **Pavan Kalyan Chittala**: Full-stack development, AI integration, system architecture
 - **Vivek Sara**: Gemini AI integration, prompt engineering, validation systems
-- **Bharadwaj**: Emergency response interface, real-time alert systems, accessibility
-- **Naveer (Guidance Only)**: Domain knowledge, emergency protocols, human intervention workflows
+- **Bharadwaj**: Full-stack development, AI integration, system architecture
+
 
 ### Problem Statement:
 Emergency calls in Andhra Pradesh often face critical challenges:

@@ -6,8 +6,8 @@ if (!apiKey) {
 }
 
 const genAI = new GoogleGenerativeAI(apiKey);
-const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-exp" });
-const reviewModel = genAI.getGenerativeModel({ model: "gemini-2.0-flash-exp" }); // Using same model for now, can be changed to Pro
+const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-exp" });
+const reviewModel = genAI.getGenerativeModel({ model: "gemini-2.5-flash-exp" }); // Using same model for now, can be changed to Pro
 
 export class GeminiAudioService {
   static async processAudio(audioBuffer: Buffer, fileName: string): Promise<any> {
